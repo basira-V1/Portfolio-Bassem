@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bassem Mohamed</title>
+  <meta name="description" content="بورتفوليو لعرض خبرتي في تطوير الواجهات الأمامية باستخدام HTML, CSS, JavaScript." />
+  <meta name="theme-color" content="#0ea5e9" />
+  <meta property="og:title" content="بورتفوليو | اسمك" />
+  <meta property="og:description" content="أعمالي ومهاراتي في تطوير الويب الأمامي." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og.jpg" />
+  <meta property="og:url" content="https://domain.com" />
+  <link rel="icaon" href="assets/icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  
+</head>
+<body class="light">
+
+  <header class="header">
+    <nav class="nav container" aria-label="التنقّل الرئيسي">
+      <a class="brand" href="#home" aria-label="العودة للرئيسية">Bassem Mohamed</a>
+      <button class="nav__toggle" aria-label="فتح/إغلاق القائمة" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#home" class="nav__link active">الرئيسية</a></li>
+        <li><a href="#about" class="nav__link">عنّي</a></li>
+        <li><a href="#skills" class="nav__link">المهارات</a></li>
+        <li><a href="#projects" class="nav__link">الأعمال</a></li>
+        <li><a href="#contact" class="nav__link">تواصل</a></li>
+        <li>
+          <button id="theme-toggle" class="icon-btn" aria-label="تبديل الوضع">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section container">
+      <div class="hero__content">
+        <p class="eyebrow">مرحبًا، أنا</p>
+        <h1>Bassem Mohamed</h1>
+        <p class="subtitle">Web Developer • Cybersecurity Engineer • Purple Team | PYTHON</p>
+        <p class="intro">
+          أصمّم وأبني مواقع سريعة وجذّابة تركز على الأداء وتجربة المستخدم.
+        </p>
+        <div class="hero__cta">
+          <a href="#projects" class="btn btn--primary">شاهد أعمالي</a>
+          <a href="CV.pdf" class="btn btn--ghost" download>تنزيل السيرة الذاتية</a>
+        </div>
+        <div class="social">
+          <a href="https://www.instagram.com/bassemmohamed01?igsh=NWZoMHVzNnpxdG9t" target="_blank" rel="noopener" aria-label="instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/bassem-mohamed-69993b383/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://www.facebook.com/bassem.mohamed.995306" target="_blank" rel="noopener" class="social-link">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero__image">
+        <img src="img.png" alt="صورة شخصية" loading="lazy" />
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h2>عنّي</h2>
+      <p>
+        مطوّر واجهات أمامية شغوف ببناء واجهات نظيفة وسريعة. عملت على مشاريع متنوعة
+        من صفحات هبوط إلى لوحات تحكم، مع تركيز على الأداء وإمكانية الوصول.
+      </p>
+      <ul class="highlights">
+        <li><i class="fa-solid fa-check-circle"></i> +3 سنوات خبرة</li>
+        <li><i class="fa-solid fa-rocket"></i> تحسين أداء المواقع و SEO</li>
+        <li><i class="fa-solid fa-users"></i> تعاون فعّال مع فرق متعددة</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="section container">
+      <h2>المهارات</h2>
+      <div class="skills">
+        <div class="skill">
+          <span>HTML5</span>
+          <div class="bar"><span style="width: 90%"></span></div>
+        </div>
+        <div class="skill">
+          <span>PYTHON</span>
+          <div class="bar"><span style="width: 95%"></span></div>
+        </div>
+        <div class="skill">
+          <span>CSS3 (Flex/Grid)</span>
+          <div class="bar"><span style="width: 85%"></span></div>
+        </div>
+        <div class="skill">
+          <span>JavaScript (ES6+)</span>
+          <div class="bar"><span style="width: 80%"></span></div>
+        </div>
+        <div class="skill">
+          <span>Red Team</span>
+          <div class="bar"><span style="width: 75%"></span></div>
+        </div>
+        <div class="skill">
+          <span>Blue Team</span>
+          <div class="bar"><span style="width: 67%"></span></div>
+        </div>
+        <div class="skill">
+          <span>CCNA</span>
+          <div class="bar"><span style="width: 85%"></span></div>
+        </div>
+      </div>
+      <div class="tags">
+        <span class="tag">Sass</span>
+        <span class="tag">Git</span>
+        <span class="tag">Cybersecurity Engineer</span>
+        <span class="tag">Accessibility</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2>أعمال مختارة</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="ToDoList.png" alt="todolist" loading="lazy" />
+          <div class="card__body">
+            <h3>مدير المهام اليومية</h3>
+            <p>موقع بسيط لتنظيم يومك وتحقيق أهدافك.</p>
+            <div class="card__tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+            </div>
+            <div class="card__actions">
+              <a class="btn btn--sm" href="https://todolist-fs.gt.tc/" target="_blank" rel="noopener">الموقع</a>
+              <!-- <a class="btn btn--sm btn--ghost" href="#" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i> الكود
+              </a> -->
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="Safe Passwords.PNG" alt="Safe Passwords" loading="lazy" />
+          <div class="card__body">
+            <h3>مدير كلمات المرور الأمن</h3>
+            <p>احفظ جميع كلمات مرورك في مكان آمن وسهل الوصول.</p>
+            <div class="card__tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+            </div>
+            <div class="card__actions">
+              <a class="btn btn--sm" href="https://safe-passwords.gt.tc/" target="_blank" rel="noopener">الموقع</a>
+              <!-- <a class="btn btn--sm btn--ghost" href="#" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i> الكود
+              </a> -->
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="FS-Downloader.png" alt="FS-Downloader" loading="lazy" />
+          <div class="card__body">
+            <h3>FS-Downloader</h3>
+            <p>لتحميل اي فديوهات من منصات التواصل الاجتماعي.</p>
+            <div class="card__tags">
+              <span class="tag">Python</span>
+            </div>
+            <div class="card__actions">
+              <a class="btn btn--sm" href="#" target="_blank" rel="noopener">Download The Application</a>
+                <!-- <a class="btn btn--sm btn--ghost" href="#" target="_blank" rel="noopener">
+                  <i class="fa-brands fa-github"></i> الكود
+                </a> -->
+            </div>
+          </div>
+        
+        </article>
+
+        <article class="card">
+          <img src="Clean System.png" alt="Clean System" loading="lazy" />
+          <div class="card__body">
+            <h3>تطبيق لحذف الملفات المؤقتة</h3>
+            <p>احذف جميع الملفات المؤقتة التي تبطئ الجهاز.</p>
+            <div class="card__tags">
+              <span class="tag">Batch Scripting</span>
+            </div>
+            <div class="card__actions">
+              <a class="btn btn--sm" href="#" target="_blank" rel="noopener">Download The Application</a>
+              <!-- <a class="btn btn--sm btn--ghost" href="#" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i> الكود
+              </a> -->
+            </div>
+          </div>
+        </article>
+
+        <article class="card" id="basira">
+          <img src="Basira.jpg" class="blur-img" alt="#" loading="lazy" />
+          <div id="soon">SOON</div>
+          <div class="card__body">
+            <h3>تطبيق بَصيرة</h3>
+            <p>تطبيق بَصيرة هو تطبيق ديني شامل يساعدك على الذكر والقرآن وتنظيم عبادتك اليومية.</p>
+            <div class="card__tags">
+              <span class="tag">Java</span>
+            </div>
+            <div class="card__actions">
+              <a class="btn btn--sm" href="#" target="_blank" rel="noopener">Download The Application</a>
+              <!-- <a class="btn btn--sm btn--ghost" href="#" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i> الكود
+              </a> -->
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+<section id="contact" class="section container">
+  <div class="container contact__content">
+    <h2 class="section__title">تواصل معي</h2>
+    <p class="contact__text">
+       جاهز للعمل على مشاريع جديدة. تواصل معايا عن طريق الواتساب
+    </p>
+    <a href="https://wa.me/201284484194" target="_blank" class="whatsapp-btn">
+    <i class="fab fa-whatsapp"></i>
+       تواصل عبر واتساب
+    </a>
+  </div>
+</section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__content">
+      <p dir="ltr">© <span id="year"></span> FS0CIETYCORP. جميع الحقوق محفوظة</p>
+      <div class="footer__links">
+        <a href="CV.pdf" download>السيرة الذاتية</a>
+        <a href="#" target="_blank" rel="noopener">مدونتي</a>
+      </div>
+    </div>
+  </footer>
+	<script defer src="script.js"></script>
+</body>
+</html>
+
